@@ -1,8 +1,24 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #1a0013;
+    /* background-color: #1a0013; */
+    background: rgb(26,0,19);
+    background: linear-gradient( rgba(26,0,19,1) 0%, rgba(68,10,60,1) 53%, rgba(122,43,105,1) 100%);
     color: whitesmoke;
-    margin-left: 25px;
+    margin-left: 10px;
+    margin-top: 55px;
+}
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.topnav a.active{
+    background-color: #490f49;
+    color: whitesmoke;
+}
+.topnav li{
+    width: 25%;
 }
 footer {
     position: relative;
@@ -38,10 +54,21 @@ li a:hover {
     background-color: #490f49;
     color: whitesmoke;
 }
+/* index.html styles */
 .logo {
     max-width: 17%;
     float: right;
     margin: 15px;
+}
+.presentation a{
+    max-width: 33%;
+    color: whitesmoke;
+    padding: 16px;
+}
+
+
+.menu {
+    display: inline-block;
 }
 .choCake {
     max-width: 20%;
@@ -90,6 +117,14 @@ li a:hover {
     padding: 5px;
     margin: 5px;
 }
-.orderBake {
+.orderTable {
     text-align: right;
+    width: 100%;
+    border-collapse: collapse;
+}
+.orderTable td {
+    border: 2px solid #f2f2f2;
+}
+.orderBake {
+    overflow-x: auto;
 }

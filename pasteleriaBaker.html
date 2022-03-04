@@ -9,13 +9,14 @@
     <title>Pasteleria Staff</title>
 </head>
 <body>
-    
-    <ul>
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./pasteleriaOrder.html">Orden</a></li>
-        <li><a href="./pasteleriaBaker.html">Panel</a></li>
-    </ul>
-    <h1>Panel de pasteleros pastelerosos pasteleando pasteles pastelosos</h1>
+    <div class="topnav">
+        <ul>
+            <li><a  href="./index.html">Inicio</a></li>
+            <li><a href="./pasteleriaOrder.html">Orden</a></li>
+            <li><a class="active" href="./pasteleriaBaker.html">Panel</a></li>
+        </ul>
+    </div>
+    <h1>Panel de control</h1>
     <hr>
     <h2>Insumos para pasteles</h2>
     <h3>Sabores</h3>
@@ -123,12 +124,14 @@
     <br><br>
     <hr>
     <h2>Pedidos</h2>
-    <table class="orderBake">
-        <tr>
-            <th>Pedidos</th>
-            <th>Sabores</th>
-            <th>Decoracion</th>
-            <th>Indicaciones</th>
+    <!-- Responde a horizontal resizeagregando un scroll horizontal -->
+    <div class="orderBake">
+        <table class="orderTable">
+            <tr>
+                <th>Pedidos</th>
+                <th>Sabores</th>
+                <th>Decoracion</th>
+                <th>Indicaciones</th>
             <th>Nombre</th>
             <th>Correo</th>
             <th>Telefono</th>
@@ -153,6 +156,7 @@
             <td>4441112234</td>
         </tr>
     </table>
+</div>
     
     <!-- X El pastelero necesita tener la información de la cantidad de sabores que le quedan para hacer los pasteles.
 X El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
@@ -161,7 +165,7 @@ X La página debe tener información de la pastelería que es -->
     <br><br>
     <footer>
         <hr>
-        <h3>Pastelerias sin nombre S.A. de C.V.</h3>
+        <h3>Pasteleria Mercurio S.A. de C.V.</h3>
         <p>Dirección: Calle de la ciudad, Col. Centro #213 Puebla, Puebla</p>
         <p>Teléfono: ##########</p>
         <p>Horarios de atención: 9 am - 8 pm</p>
