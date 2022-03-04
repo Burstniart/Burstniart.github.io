@@ -108,6 +108,7 @@ li a:hover {
 .menu {
     display: inline-block;
     color: whitesmoke;
+    width: 100%;
 }
 .container {
     display:flex;
