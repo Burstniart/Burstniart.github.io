@@ -61,16 +61,20 @@ li a:hover {
     margin: 15px;
 }
 .presentation {
-    max-width: 60%;
+    max-width: 80%;
     text-align: center;
     left: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/chokoCake.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .intro {
-    max-width: 33%;
+    max-width: 50%;
     color: whitesmoke;
     padding: 16px;
     font-size: x-large;
-    left: 10px;
+    position: relative;
+    left: 27%;
 }
 .menu {
     display: inline-block;
