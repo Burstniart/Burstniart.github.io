@@ -30,7 +30,7 @@ X Descripción general del pastel y la selección de sabores y adornos.
 - --->
     <h2>Ordenar</h2>
     
-    <form action="./pedidoBake.js" id="form1" method="post">
+    <form action="" id="form1" method="post">
         
                 <h3>Elige tu sabor:</h3>
                 <input type="checkbox" id="falvor1" name="falvor1" value="Chocolate">
@@ -70,10 +70,12 @@ X Descripción general del pastel y la selección de sabores y adornos.
         <P>Decorado con:</P>
         <p>Total a pagar:</p>
         <br><br>       
-        <input type="submit" value="Ordenar">
-        <input type="reset" value="Restablecer">
-        <br><br><br>
     </form>
+    <button onclick="myFunction()">Ordenar</button>
+    <br><br><br>
+    <div id="snackbar">Orden recibida</div>
+
+
     <footer>
         <hr>
         <h3>Pasteleria Mercurio S.A. de C.V.</h3>
@@ -82,5 +84,12 @@ X Descripción general del pastel y la selección de sabores y adornos.
         <p>Horarios de atención: 9 am - 8 pm</p>
         <br>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("snackbar");
+          x.className = "show";
+          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        }
+        </script>
 </body>
 </html>
