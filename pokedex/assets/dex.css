@@ -8,8 +8,8 @@ body {
 .pokeLogo {
     position: absolute;
     top: 0px;
-    left: 50%;
-    width: 60%;
+    left: 60%;
+    width: 100%;
   }
 
   .display {
