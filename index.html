@@ -5,8 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alejandro's Portfolio</title>
+    <link  rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-    <P>Hewoo, I'm a portfolio XD</P>
+    <button class="tabLink" id="defaultOpen" onmouseover="openPage('Home',this, 'red')">Home</button>
+    <button class="tabLink" onmouseover="openPage('About',this, 'green')">About</button>
+    <button class="tabLink" onmouseover="openPage('Work',this, 'purple')">Work</button>
+    <button class="tabLink" onmouseover="openPage('Contact',this, 'blue')">Contact</button>
+
+    <div id="Home" class="tabcontent">
+        <h3>Preface</h3>
+        <pre>Welcome
+            My name is Alejandro, I'm a university student and a technology enthusiast.
+            It is with pure joy that now more than ever I'm able to say I'm close to work in the IT industry.
+            Every line of code I write feels like writing my own history the way I always wanted to.
+            Hopefully one day I'll be able to inspire that feeling in someone else.
+        </pre>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>Alejandro Garcia</h3>
+        <p>Third year student in Systems Engineering</p>
+        <p>My learning paths are Big Data and Web Development</p>
+        <p>The languages I use are Python, Java and JavaScript</p>
+        <br>
+        <p>I'm eager to kickstart my career as a developer, I'd love to work with the data in a Virtual Reality platform</p>
+        <p>Recently found a lot satisfaction in web development so here is were I'm deciding to start my professional journey</p>
+        <br>
+        <p>Since I was a kid I fell in love with technology and the way it started to take a place in our lives and ever since wanted to be part of it.</p>
+    </div>
+
+    <div id="Work" class="tabcontent">
+        <h3>Work</h3>
+        <p>Links to some of the work I've done so far</p>
+
+        <p>Here's a Bakery practice</p>
+        <a href="https://burstniart.github.io/mercurioBakery/pasteleriaHome.html">Online page</a>
+        <a href="https://github.com/Burstniart/LaunchX_Frontend_html">Repository</a>
+
+        <p>Here's a vacination page</p>
+        <a href="https://burstniart.github.io/vaccination/vax.html">Online page</a>
+        <a href="https://github.com/Burstniart/LaunchX_Frontend_CSS">Repository</a>
+
+        <p>Here's a PokeDex</p>
+        <a href="https://burstniart.github.io/pokedex/dex.html">Online page</a>
+        <a href="https://github.com/Burstniart/LaunchX_Frontend_JS">Repository</a>
+
+    </div>
+    
+    <div id="Contact" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Where you can find me</p>
+        <br>
+        <a href="https://github.com/Burstniart">Github</a>
+        <p>Email: v4gr33n@hotmail.com</p>
+    </div>
+<footer>
+    <script src="./assets/script.js"></script>
+</footer>
 </body>
 </html>
