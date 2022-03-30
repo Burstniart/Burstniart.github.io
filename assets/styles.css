@@ -8,7 +8,7 @@ body, html {
 }
 
 .tabLink {
-    background-color: #555;
+    background-color: #2C2A4A;
     color: white;
     float: left;
     border: none;
@@ -19,7 +19,8 @@ body, html {
 }
 
 .tabLink:hover {
-    background-color: #777;
+    box-shadow: 10px 10px 5px #1d1c31 inset;
+    background-color: #4d4983;
 }
 
 .tabcontent {
@@ -28,8 +29,53 @@ body, html {
     padding: 100px 20px;
     height: 100%;
 }
+.tabcontent a {
+    color: #81DEFF;
+}
 
-#Home {background-color: red;}
-#About {background-color: green;}
-#Work {background-color: purple}
-#Contact {background-color: blue}
+#Home, #About, #Work, #Contact{
+    background: linear-gradient(0deg, rgba(77,73,131,1) 0%, rgba(68,64,114,1) 10%, rgba(44,42,74,1) 80%, #1d1c31 100%);
+    
+    }
+
+.Home {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3% 0px;
+    font-size: 22px;
+}
+
+.About {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align:start;
+    padding: 3% 0px;
+}
+.About li {
+    padding: 5px 5px;
+}
+
+.Contact img {
+    height: 64px;
+    width: 64px;
+}
+.Contact {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3% 0px;
+    font-size: 22px;
+}
+
+.Work {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align:start;
+    padding: 1% 0px;
+    font-size: 18px;
+}

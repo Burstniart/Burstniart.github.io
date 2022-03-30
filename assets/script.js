@@ -13,4 +13,4 @@ function openPage(pageName, element, color) {
 
     element.style.backgroundColor = color;
 }
-document.getElementById('defaultOpen').onmouseover();
+document.getElementById('defaultOpen').click();
